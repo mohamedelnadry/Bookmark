@@ -1,0 +1,31 @@
+*{
+    font-family: 'arial';
+}
+header .container{
+    color: #AAA;
+    padding: 20px;
+    border-bottom: 1px solid #999;
+    font-size: 25px;
+}
+header .container h1{
+    padding: 10px;
+    
+}
+.well{
+    background-color: #EEE;
+    border: none;
+    text-align: center;
+    padding: 30px;
+}
+.container input{
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    max-height: 2em;
+}
+p{
+    padding: 10px;
+}

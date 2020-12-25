@@ -1,0 +1,47 @@
+
+<html>
+<head>
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="">Bookmarker</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="well">
+            <div class="column">
+                <h2>Bookmark your favorite sites</h2>
+                <p>Site Name</p>
+                <input type="text" placeholder="Bookmark Name" id="siteName" class="form-control">
+                <div class="alert alert-danger d-none" id="alert">
+                    <strong>please try again</strong>
+                </div>
+                <p>Site URL</p>
+                <input type="text" placeholder="Website URL" id="siteURL" class="form-control">
+                <div class="alert alert-danger d-none" id="alert2">
+                    <strong>please try again</strong>
+                </div>
+                <div class="m-auto p-3">
+                    <button class="btn btn-primary" id="btn" onclick="addsite()"> Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-inline my-2 row justify-content-center">
+        <input class="form-control" type="search" placeholder="Search" id="search"onkeyup="search()">
+    </div>
+    <div class="container py-5" id="vv">
+    </div>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/mine.js"></script>
+    
+
+
+    
+</body>
+</html>
